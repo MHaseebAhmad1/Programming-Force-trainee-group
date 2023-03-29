@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Navbar</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ab0bcd8ca8.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style/style.css" />
+    <title>Navbar</title>
   </head>
   <body>
-    <!-- ----------------Navbar--------------- -->
     <nav>
-      <h3>Logo</h3>
-      <ul>
-        <li>
-          <a href="#"> Home </a>
-          <a href="#"> Products </a>
-          <a href="#"> About</a>
-          <a href="#"> Contact</a>
-          <a href="#"> Cart</a>
-        </li>
-      </ul>
+      <div class="menu-icon"><span class="fas fa-bars"></span></div>
+      <div class="logo">LOGO</div>
+      <div class="nav-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Cart</a></li>
+      </div>
+      <div class="search-icon"><span class="fas fa-search"></span></div>
+      <div class="cancel-icon"><span class="fas fa-times"></span></div>
+
+      <form action="#">
+        <input
+          type="search"
+          class="search-data"
+          placeholder="Search"
+          required
+        />
+        <button type="submit" class="fas fa-search"></button>
+      </form>
     </nav>
   </body>
 </html>
