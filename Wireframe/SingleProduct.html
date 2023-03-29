@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Main {
+        display: flex;
+        /* background-color: aqua; */
+        height: 600px;
+        /* border-radius: 10px;
+        border: 1px;
+        border-style: solid;
+        border-color: black; */
+      }
+      .image {
+        /* background-color: bisque; */
+        width: 500px;
+      }
+      .image img {
+        height: 600px;
+      }
+      /* .add{
+        border-radius: 1px;
+        border-style: solid;
+        border-color: rgb(235, 233, 231);
+    border-width: 10px;
+      } */
+      #minus {
+        width: 40px;
+        height: 30px;
+      }
+      #plus {
+        width: 40px;
+        height: 30px;
+      }
+      #cart {
+        width: 300px;
+        height: 40px;
+      }
+      .addtocart {
+        padding-top: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Main">
+      <div class="image">
+        <img src="shirt1.webp" alt="" />
+      </div>
+      <div class="addtocart">
+        <h2>BOYS COLOR BLOCK POLO</h2>
+        <h5>SKU: K22FP141-1Y2-BNW</h5>
+        <p><s>PKR 1,599</s> PKR 799</p>
+        <p>Size: 1-2Y</p>
+        <label for="option">1-2Y</label>
+        <input type="radio" name="option" />
+        <label for="option">2-3Y</label>
+        <input type="radio" name="option" />
+        <label for="option">3-4Y</label>
+        <input type="radio" name="option" />
+        <label for="option">4-5Y</label>
+        <input type="radio" name="option" />
+        <h5>Quantity:</h5>
+        <span class="add">
+          <button id="minus">-</button>1 <button id="plus">+</button> </span
+        ><br /><br />
+        <button id="cart">Add to cart</button><br><br>
+        <button id="cart"><a href="index.html">Shopping Again</a></button>
+      </div>
+    </div>
+  </body>
+</html>
