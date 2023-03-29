@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins',Arial, Helvetica, sans-serif;
+}
+.Billing-info{
+    width: 80%;
+}
+.Billing-info{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+.form .form-row{
+    display: flex;
+
+}
+.form .form-col{
+    flex-basis: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+th{
+    width: 100px;
+}
+td{
+height: 18px;
+}
+button{
+float: right;
+}
