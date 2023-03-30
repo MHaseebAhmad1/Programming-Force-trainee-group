@@ -19,7 +19,7 @@ iframe{
     width: 100%;
     height: 60vh;
 }
-/* mediaqueries */
+/* mediaqueries for contactus*/
 @media screen and (min-width: 1290px) {
 .location div{
     padding: 20px 400px;
